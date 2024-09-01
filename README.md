@@ -15,6 +15,8 @@ NIP-26 means that a delegator can give permission to a delegatee to sign specifi
 
 fiatjaf thinks [NIP-26](https://fiatjaf.com/4c79fd7b.html) [should not exist](https://github.com/nbd-wtf/nostr-tools/pull/323#issuecomment-1854144817). Thus, NIP-26 was removed from nostr-tools [(without consensus)](https://github.com/nbd-wtf/nostr-tools/pull/323#issuecomment-1854213944) in [December 2023](https://github.com/nbd-wtf/nostr-tools/commit/867aa11d126a924e615e32871700d66b0f02e241#diff-7ae45ad102eab3b6d7e7896acd08c427a9b25b346470d7bc6507b6481575d519).
 
+There is discussion to [deprecate NIP-26](https://github.com/nostr-protocol/nips/pull/1051).
+
 ### Why not NIP-46?
 
 NIP-46 is offered as an alternative to NIP-26, however NIP-46 cannot handle offline signing. For NIP-46 remote signatures, a user must be present to click the buttons. NIP-26 solves the problem of offline signing today, is thus useful, and should exist.
@@ -23,4 +25,9 @@ NIP-46 is offered as an alternative to NIP-26, however NIP-46 cannot handle offl
 ### [Why not just use the master key? I assume you already have access](https://github.com/nbd-wtf/nostr-tools/pull/323#issuecomment-1854234819)
 
 No. We don't have access to the user's master key, and we don't want it. We only have access to the user's delegated child key.
+
+
+## Helpful dev tools
+
+  * https://nostrtool.com/ (https://github.com/kdmukai/nostrtool)
 

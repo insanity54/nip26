@@ -1,0 +1,36 @@
+{
+  "name": "nip26",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/nip26.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insanity54/nip26.git"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "decentralization",
+    "social",
+    "censorship-resistance",
+    "client",
+    "nostr"
+  ],
+  "author": "@insanity54",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "eslint-plugin-jest": "^28.8.1",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.5.0",
+    "@noble/hashes": "^1.4.0",
+    "nostr-tools": "^2.7.2"
+  },
+  "packageManager": "pnpm@9.6.0"
+}
